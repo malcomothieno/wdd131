@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Album showcasing beautiful temples from around the world with filtering options">
+    <meta name="author" content="Rubia Magdelena Francesco">
+    <title>Filtered Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button id="menu-button">☰</button>
+            <ul class="nav-links">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="page-title">Home</h1>
+        <div class="temple-grid">
+            <!-- Temple cards will be dynamically inserted here by JavaScript -->
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🌺 Rubia Magdelena Francesco 🌺 Madagascar</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+</body>
+</html>
